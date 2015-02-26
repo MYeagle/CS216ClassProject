@@ -1,0 +1,25 @@
+
+/**
+ * dummy
+ */
+public class Station implements Actor
+{
+    // instance variables - replace the example below with your own
+    // My station number (0...3 = offset into Student)
+    //  q0_ref, q1_ref...  refs to all the queuea
+    //--current student ref
+
+    /**
+     * Constructor for objects of class Station
+     */
+    public Station(int id,Queue ref0, Queue ref1, Queue ref2, Queue ref3, Queue qx)
+    {
+        //has refts to the queues 
+        
+    }
+
+     public void act(int tick)
+     {
+         
+     }
+}
