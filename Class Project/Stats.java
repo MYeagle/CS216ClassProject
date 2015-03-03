@@ -9,16 +9,18 @@ import java.util.ArrayList;
 public class Stats
 
 {
-    
+
     private int waitTime;
     private int statTick;
     private Queue queue;
     private Student student;
+    private int tick;
     /**
      * Constructor for objects of class stats
      */
     public Stats(int tick)
     {
+        tick=tick; 
         queue = new Queue();
         student = new Student(tick);
         waitTime = student.getCreationTick();
@@ -38,17 +40,17 @@ public class Stats
      * will return the largest size of the queue
      * 
      */
-    public void largestQueueSize(Queue x)
+    public void largestQueueSize()
     {
-        ArrayList<Student> line1 = queue.getList(); //possible getter for arraylist?
-        
+       
+
         int length; //used to keep track of the size
         int length2;
         int actual = 0; //will hold the largest size
         length = queue.length();
         actual = length;
-        if(statTick % 10 == 0){
-            length2 = x.length(); //sets length2 to the new size of queue
+        if(tick % 10 == 0){
+            length2 = queue.length(); //sets length2 to the new size of queue
 
             if(length2 > length){
                 length2 = actual;
@@ -60,5 +62,5 @@ public class Stats
 
     }
 
-
 }
+
