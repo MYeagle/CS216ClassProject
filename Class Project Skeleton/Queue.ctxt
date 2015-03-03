@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Queue()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Queue\r\n
+comment1.params=x
+comment1.target=void\ enqueue(Student)
+comment1.text=\r\n\ adds\ a\ student\ into\ queue\r\n
+comment2.params=
+comment2.target=Student\ dequeue()
+comment2.text=\r\n\ removes\ student\ from\ queue\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment4.params=
+comment4.target=int\ length()
+numComments=5

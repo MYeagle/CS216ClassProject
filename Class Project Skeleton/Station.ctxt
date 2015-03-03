@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=id\ ref0\ ref1\ ref2\ ref3\ qx
+comment0.target=Station(int,\ Queue,\ Queue,\ Queue,\ Queue,\ Queue)
+comment1.params=tick
+comment1.target=void\ act(int)
+numComments=2
