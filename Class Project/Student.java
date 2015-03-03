@@ -23,16 +23,20 @@ public class Student
         // financialAid = 2;
         // bookStore = 3;
         processStation = new StationData[4];
+        exitTick = 0;
         for (int count = 0; count < processStation.length; count++)
         {
-            processStation[count] = new StationData(tick, 0, 0); 
-            exitTick = 0;
+            processStation[count] = new StationData(0, 0, 0); 
+         
         }
 
-        processStation[0].setDuration(3); //random duration for now
+        processStation[0].setDuration(3); //random durations for now
         processStation[1].setDuration(1);
         processStation[2].setDuration(4);
         processStation[3].setDuration(2);
+        
+        processStation[0].setQueueEntry(tick);
+        
     }
 
     public StationData getStationData(int num)
@@ -65,8 +69,20 @@ public class Student
         return creationTick;
     }
 
+    /**
+     * Returns the exit tick.
+     */
     public int getExitTick()
     {
         return exitTick;
+    }
+    
+    /**
+     * 
+     */
+    public int setExitTick(int e)
+    {
+        exitTick = e;
+        return e;
     }
 }

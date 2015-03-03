@@ -7,7 +7,7 @@ import java.util.Random;
  * @version (a version number or a date)
  */
 
-public class StudentSource extends Controller
+public class StudentSource implements Actor
 {
     //random number generator 
     Random rgen = new Random();
@@ -32,16 +32,16 @@ public class StudentSource extends Controller
 
             if (rand == 0)
             {
-                // do nothing
+                System.out.print("Will not create student.  Rand:"+rand+"\n");
             }
 
             else if (rand ==1) 
             //create 3 students and add to the arrylist of students in the class Station
             {
-                Student s = new Student (tick);
+              //  Student s = new Student (tick);
                 currentQueue.enqueue(new Student(tick));
 
-                
+                //Station.addStudent(s);
             }
         }
     }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * @author (Jeff) 
  * @version (a version number or a date)
  */
-public class Stats
+public class Stats implements Actor
 
 {
 
@@ -40,7 +40,7 @@ public class Stats
      * will return the largest size of the queue
      * 
      */
-    public void largestQueueSize()
+    public void act(int tick)//largestQueueSize
     {
        
 
@@ -63,4 +63,3 @@ public class Stats
     }
 
 }
-

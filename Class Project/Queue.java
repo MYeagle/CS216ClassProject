@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * Write a description of class Queue here.
  * 
- * @author (your name) 
+ * @author (Jeff) 
  * @version (a version number or a date)
  */
 public class Queue
@@ -32,27 +32,34 @@ public class Queue
      */
     public Student dequeue()
     {
-       
+
         if(this.isEmpty() == true)
         {System.out.print("Error");
             return null;
         }
         else
         {
-           return line1.remove(0);
+            return line1.remove(0);
 
         }
     }
 
     public boolean isEmpty()
     {
-      return line1.isEmpty();
-        
-    }
-    
-    public int length()
-    {
-       return line1.size() ;
+        return line1.isEmpty();
+
     }
 
+    public int length()
+    {
+        return line1.size() ;
+    }
+
+    public Student getStudent(int l)
+    {
+        return line1.get(l);
+    }
+
+
 }
+

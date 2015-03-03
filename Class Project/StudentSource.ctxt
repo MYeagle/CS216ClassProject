@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=cQueue
+comment0.target=StudentSource(Queue)
+comment1.params=tick
+comment1.target=void\ act(int)
+numComments=2
