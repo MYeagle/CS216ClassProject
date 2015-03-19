@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=tick\ entry\ dur
+comment0.target=StationData(int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ StationData\r\n
+comment1.params=s
+comment1.target=void\ setStationEntry(int)
+comment2.params=d
+comment2.target=void\ setDuration(int)
+comment3.params=q
+comment3.target=void\ setQueueEntry(int)
+comment4.params=
+comment4.target=int\ getStationEntry()
+comment5.params=
+comment5.target=int\ getQueueEntry()
+comment6.params=
+comment6.target=int\ getDuration()
+comment7.params=
+comment7.target=void\ printResults()
+numComments=8

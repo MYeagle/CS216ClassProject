@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=w\ x\ y\ z
+comment0.target=Stats(Queue,\ Queue,\ Queue,\ Queue)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ stats\r\n
+comment1.params=
+comment1.target=int\ getWaitTime()
+comment1.text=\r\n\ returns\ wait\ time\ \r\n
+comment2.params=tick
+comment2.target=void\ act(int)
+comment2.text=\r\n\ will\ return\ the\ largest\ size\ of\ the\ queue\r\n\ \r\n
+numComments=3
