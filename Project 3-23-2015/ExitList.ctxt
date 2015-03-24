@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ExitList()
+comment1.params=x
+comment1.target=void\ add(Student)
+comment2.params=
+comment2.target=Student[]\ getCopy()
+comment3.params=
+comment3.target=int\ getSize()
+numComments=4

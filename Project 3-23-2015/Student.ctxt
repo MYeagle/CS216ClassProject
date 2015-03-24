@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=tick
+comment0.target=Student(int)
+comment0.text=\r\n\ Takes\ in\ the\ starting\ tick.\ Constructs\ a\ new\ student.\r\n
+comment1.params=
+comment1.target=void\ printStationData()
+comment2.params=num
+comment2.target=StationData\ getStationData(int)
+comment3.params=
+comment3.target=int\ getCreationTick()
+comment3.text=\r\n\ Returns\ the\ creation\ tick.\r\n
+comment4.params=
+comment4.target=int\ getExitTick()
+comment4.text=\r\n\ Returns\ the\ exit\ tick.\r\n
+comment5.params=exit
+comment5.target=int\ setExitTick(int)
+comment5.text=\r\n\ Changes\ the\ exit\ tick\ to\ parameter\ exit.\r\n
+numComments=6
